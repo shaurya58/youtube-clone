@@ -1,0 +1,15 @@
+.App {
+  background-color: #181818;
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  margin-top: 4.5rem;
+  margin-left: -1rem;
+  padding: 0.5rem 1rem;
+}
+
+.contentShift {
+  margin-left: 14rem;
+}

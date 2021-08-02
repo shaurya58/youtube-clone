@@ -1,0 +1,7 @@
+.wall {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 1rem;
+  gap: 2rem;
+}

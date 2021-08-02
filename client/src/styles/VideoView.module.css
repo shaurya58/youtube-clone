@@ -1,0 +1,74 @@
+.video-view {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  gap: 0.5rem;
+}
+
+.video-player {
+  grid-column: 1;
+  height: 20rem;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.hash-tags {
+  grid-column: 1;
+  color: #3a99ea;
+  font-size: 0.9rem;
+}
+
+.title {
+  grid-column: 1;
+  color: white;
+}
+
+.info {
+  grid-column: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #303030;
+  color: #9c9c9c;
+  width: 100%;
+  height: 4rem;
+  box-sizing: border-box;
+}
+
+.stats {
+  grid-column: 1;
+  justify-self: flex-start;
+}
+
+.actions {
+  grid-column: 1;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 0.5rem; */
+  height: 100%;
+}
+
+.like-icon,
+.dislike-icon {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #909090;
+}
+
+.recommendations {
+  grid-column: 2;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+}

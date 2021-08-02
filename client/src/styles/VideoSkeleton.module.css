@@ -1,0 +1,45 @@
+.video-skeleton {
+  display: grid;
+  grid-template-columns: 2.5rem auto;
+  grid-template-rows: 10rem 1.2rem 1.2rem;
+  grid-gap: 1rem;
+  min-width: 17rem;
+  max-width: 20rem;
+  max-height: 140rem;
+}
+
+.media {
+  background-color: #252525;
+  border-radius: 2px;
+  grid-column: span 3;
+  grid-row: 1;
+}
+
+.channel-avatar {
+  background-color: #252525;
+  height: 2.5rem;
+  width: 2.5rem;
+  grid-column: 1;
+  grid-row: span 2;
+  border-radius: 50%;
+}
+
+.title {
+  background-color: #252525;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 2;
+  height: 1.2rem;
+  border-radius: 2px;
+  width: 90%;
+}
+
+.subtitle {
+  background-color: #252525;
+  border-radius: 1px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 3;
+  height: 1.2rem;
+  width: 70%;
+}

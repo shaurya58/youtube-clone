@@ -1,0 +1,40 @@
+.recommended-categories__container {
+  background-color: #202020;
+  border-top: 1px solid #343434;
+  border-bottom: 1px solid #343434;
+  position: fixed;
+  flex-grow: 1;
+  flex-shrink: 1;
+  z-index: 10;
+  top: 3.95rem;
+  display: flex;
+  gap: 1rem;
+  color: white;
+  align-items: center;
+  padding: 0.8rem 1rem;
+}
+
+.recommended-categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.recommended-categories__category {
+  border-radius: 16px;
+  border: 1px solid #373737;
+  background-color: #373737;
+  padding: 0.3rem 1rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+
+.recommended-categories__btn {
+  cursor: pointer;
+}

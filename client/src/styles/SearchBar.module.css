@@ -1,0 +1,33 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-basis: 45rem;
+  height: 30px;
+}
+
+.search-bar__input {
+  background-color: #121212;
+  height: 100%;
+  border: 1px solid #323232;
+  width: 80%;
+  font-family: Roboto;
+  font-size: 1rem;
+  padding: 0 0.8rem;
+}
+
+.search-bar__btn {
+  display: flex;
+  align-items: center;
+  background-color: #323232;
+  border: 1px solid #323232;
+  color: #505050;
+  height: 100%;
+  padding: 0rem 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-bar__mic-icon {
+  margin-left: 1rem;
+  cursor: pointer;
+}
