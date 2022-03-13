@@ -1,0 +1,17 @@
+.content {
+  flex-grow: 1;
+  /* padding-top: 5.5rem; */
+  padding-top: 4rem;
+  /* padding-left: 5.5rem; */
+  padding-left: 7rem;
+  background-color: #f9f9f9;
+  /* padding-right: 4rem; */
+}
+
+.contentShift {
+  /* padding-left: 18rem; */
+  padding-left: 16rem;
+  /* padding-right: 4rem; */
+  overflow: hidden;
+  background-color: #f9f9f9;
+}

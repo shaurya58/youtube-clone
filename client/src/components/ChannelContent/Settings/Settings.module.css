@@ -1,0 +1,87 @@
+.settingsModal {
+  position: fixed;
+  z-index: 50;
+  border-radius: 8px;
+  margin-top: 5%;
+  margin-left: 20%;
+  height: 80%;
+  width: 60%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 1.2fr 8.5fr 1fr;
+  grid-template-columns: 3.5fr 8fr;
+  grid-template-areas:
+    'title title'
+    'sidebar main'
+    'footer footer';
+}
+
+.title {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  grid-area: title;
+  padding: 1.5rem 1.5rem;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__list {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding: 0;
+  overflow: clip;
+}
+
+.sidebar__list li {
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #0d0d0d;
+  font-weight: 450;
+  padding: 1rem 0 1rem 1.5rem;
+}
+
+.sidebar__list .selected {
+  background-color: #f1f1f1;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__btnGroup {
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+}
+
+.footer__btnGroup button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #065fd4;
+  font-weight: 450;
+}
+
+.footer__btnGroup button:disabled {
+  color: #909090;
+}

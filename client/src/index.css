@@ -1,8 +1,19 @@
+@font-face {
+  font-family: youtubeSansMedium;
+  src: url('assets/fonts/youtube-sans-medium.ttf');
+}
+
+@font-face {
+  font-family: youtubeSansLight;
+  src: url('assets/fonts/youtube-sans-medium.ttf');
+  font-weight: 300;
+}
+
 body {
   margin: 0;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', youtubeSansMedium, youtubeSansLight, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,11 +27,24 @@ code {
   width: 8px;
 }
 
-::-webkit-scrollbar-track {
-  background-color: #212121;
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background-color: #212121;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(116, 114, 114);
+  }
 }
 
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: rgb(116, 114, 114);
+@media (prefers-color-scheme: light) {
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ccc;
+  }
 }

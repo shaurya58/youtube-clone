@@ -1,0 +1,23 @@
+.search-bar {
+  height: 32px;
+  width: 40%;
+}
+
+.search-bar__input {
+  background-color: #ffffff;
+  font-family: youtubeSansMedium;
+  font-size: 1rem;
+  height: 90%;
+}
+
+.search-bar__btn {
+  display: flex;
+  align-items: center;
+  background-color: #323232;
+  border: 1px solid #323232;
+  color: #505050;
+  height: 100%;
+  padding: 0rem 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}

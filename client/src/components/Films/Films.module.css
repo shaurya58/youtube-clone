@@ -1,0 +1,97 @@
+.header {
+  height: 8.5rem;
+  padding: 0.5rem 6rem 0 6rem;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-left: 0.8rem;
+  gap: 1rem;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-primary {
+  color: white;
+  font-weight: 450;
+  font-size: 1.5rem;
+}
+
+.title-secondary {
+  color: #a1a1a1;
+  font-size: 1rem;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.tabs {
+  font-size: 0.9rem;
+  font-weight: 450;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  color: #a0a0a0;
+}
+
+.tabs span {
+  width: 7rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.tabs .selected {
+  border-bottom: 3.5px solid #909090;
+  color: white;
+}
+
+.movies-section {
+  padding: 1.5rem 6rem;
+  background-color: #0f0f0f;
+  color: white;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #303030;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  font-weight: 450;
+}
+
+.movies-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie__poster {
+  margin-bottom: 0.5rem;
+}
+
+.movie__title {
+  font-weight: 420;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+  background-color: #272727;
+  color: #298328;
+  border: 1px solid #272727;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+}

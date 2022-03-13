@@ -1,0 +1,65 @@
+.video-description__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+}
+
+.channel-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.channel-avatar {
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%; */
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.channel-name {
+  font-size: 0.9rem;
+  font-weight: 450;
+  cursor: pointer;
+}
+
+.channel-subscribers {
+  color: #9c9c9c;
+  font-size: 0.8rem;
+}
+
+.subscribe-btn {
+  font-family: Roboto;
+  font-size: 0.9rem;
+  font-weight: 450;
+  justify-self: flex-end;
+  background-color: #cc0000;
+  border: 1px solid #cc0000;
+  border-radius: 2px;
+  color: white;
+  padding: 0.5rem 1rem;
+  height: 90%;
+  cursor: pointer;
+}
+
+.video-description__body {
+  color: white;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: 62.8px;
+}
+
+.video-description_visibility-control {
+  color: #949494;
+  font-size: 0.8rem;
+  font-weight: 525;
+}

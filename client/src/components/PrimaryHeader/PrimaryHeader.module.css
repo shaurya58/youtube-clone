@@ -1,0 +1,42 @@
+.primary-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+  color: white;
+  width: calc(100vw - 4rem);
+  padding: 0.9rem 2rem;
+}
+
+.primary-header__start {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  cursor: pointer;
+}
+
+.signin-button {
+  height: 2.25rem;
+  background-color: transparent;
+  border: 1px solid #3ea6ff;
+  border-radius: 2px;
+  color: #3ea6ff;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  font-family: 'Roboto';
+  font-weight: 450;
+}
+
+.primary-header__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.primary-header__end__icon {
+  cursor: pointer;
+}

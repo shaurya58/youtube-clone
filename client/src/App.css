@@ -1,15 +1,33 @@
 .App {
   background-color: #181818;
   display: flex;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .content {
   flex-grow: 1;
-  margin-top: 4.5rem;
-  margin-left: -1rem;
-  padding: 0.5rem 1rem;
+  margin-top: 4.1rem;
+  margin-left: 5.5rem;
+  /* padding: 0.5rem; */
 }
 
 .contentShift {
   margin-left: 14rem;
+  overflow: hidden;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 15rem;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(12, 12, 12, 0.5);
+}
+
+.unscrollable {
+  overflow: hidden;
+  max-height: 100vh;
 }

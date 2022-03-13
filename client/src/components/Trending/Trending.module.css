@@ -1,0 +1,61 @@
+.header {
+  height: 8.5rem;
+  padding: 0.5rem 6rem 0 6rem;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  padding-left: 0.8rem;
+  color: white;
+  font-weight: 450;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.tabs {
+  font-size: 0.9rem;
+  font-weight: 450;
+  gap: 1rem;
+  color: #a0a0a0;
+}
+
+.tab {
+  width: 7rem;
+  padding: 0 0 0.5rem 0.1rem;
+}
+
+.active {
+  color: white;
+}
+
+.indicator {
+  width: 8rem;
+  border-bottom: 3.5px solid #909090;
+}
+
+.videos-list {
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  background-color: #0f0f0f;
+}
+
+.videos-list__item {
+  /* height: 10rem; */
+  width: 60%;
+  height: 10rem;
+}

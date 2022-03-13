@@ -1,0 +1,88 @@
+.video-view {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.video-pane {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-player {
+  height: 28rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.hash-tags {
+  color: #3a99ea;
+  font-size: 0.9rem;
+}
+
+.title {
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid #303030;
+  color: #9c9c9c;
+  height: 4rem;
+  box-sizing: border-box;
+}
+
+.stats {
+  justify-self: flex-start;
+  white-space: nowrap;
+}
+
+.actions {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
+}
+
+.sentiment-icons {
+  border-bottom: 2px solid #909090;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  cursor: pointer;
+  padding-bottom: 0rem;
+}
+
+.actions__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.video-description {
+  padding: 1rem 0;
+  border-bottom: 1px solid #303030;
+}
+
+.comments {
+  padding: 1rem 0;
+}
